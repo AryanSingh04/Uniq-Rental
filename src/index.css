@@ -21,4 +21,15 @@
     .custom-box-shadow {
         box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
       }
+    .anim{
+        animation: pop .8s ease alternate infinite;
+      }
+      @keyframes pop {
+        from{
+            transform: translateY(-60%) ;
+        }
+        to{
+            transform: translateY(20%) ;
+        }
+      }
 }
