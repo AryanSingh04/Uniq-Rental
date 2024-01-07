@@ -2,7 +2,7 @@ import React from 'react'
 // https://th.bing.com/th/id/R.3e8e3d4a4fcf7e22801545d5e765dee2?rik=J9GW8RyHc21Phw&riu=http%3a%2f%2fwww.baltana.com%2ffiles%2fwallpapers-17%2fGanesh-Gaitonde-HD-Desktop-Wallpaper-44543.jpg&ehk=FZfXq13%2fWeMJyC1iTSkm0Z210CsklBs6IGfevPzdRXE%3d&risl=&pid=ImgRaw&r=0
 const Review = ({text,name,loc,img,i}) => {
   return (
-    <div className={`w-3/4 md:w-[500px] h-3/4 lg:h-fit p-8 bg-slate-100 lg:block ${i==0 && "hidden"}`}>
+    <div className={`w-3/4 md:w-[500px] lg:h-fit p-8 bg-slate-100 lg:block ${i==0 && "hidden"}`}>
         <div className="w-full h-3/5 pb-6 ">
             <p className="font-semibold text-black text-lg  sm:text-2xl">"{text}"</p>
         </div>
